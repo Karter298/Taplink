@@ -7,6 +7,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 .page-wrapper {
+  overflow: hidden; /* Скругление сверху */
   max-width: 375px; /* Максимальная ширина */
   margin: auto;
   background: #f8f8f8;
@@ -29,4 +30,36 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+}
+.container {
+  max-width: 300px;
+  margin: auto;
+}
+.user {
+  margin-top: -62px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(135, 135, 135, 0.25);
+  border-radius: 12px;
+  padding-bottom: 10px;
+}
+.user-avatar {
+  margin-top: -40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ffffff;
+}
+.user-name {
+  margin-top: 5px;
+  margin-bottom: 4px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.user-description {
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #767575;
 }
