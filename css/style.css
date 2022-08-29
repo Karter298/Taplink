@@ -63,3 +63,47 @@ body {
   line-height: 17px;
   color: #767575;
 }
+.card {
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(135, 135, 135, 0.25);
+  border-radius: 12px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 260px;
+  margin: auto;
+  gap: 10px;
+}
+.button {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+.button.vk {
+  background: #4c75a3;
+}
+.button.telegram {
+  background: #0088cc;
+}
+.button.youtube {
+  background: #ff0000;
+}
+.button.hh {
+  background: #d6001c;
+}
