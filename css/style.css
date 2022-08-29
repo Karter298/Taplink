@@ -1,3 +1,32 @@
 * {
   box-sizing: border-box;
 }
+body {
+  background-color: #f8f8f8; /* Фоновый цвет */
+  padding: 15px; /* Отступ */
+  font-family: "Inter", sans-serif;
+}
+.page-wrapper {
+  max-width: 375px; /* Максимальная ширина */
+  margin: auto;
+  background: #f8f8f8;
+  box-shadow: 0px 4px 30px rgba(138, 138, 138, 0.25); /* Тени */
+  border-radius: 20px; /* Скругление */
+}
+.header {
+  color: #fff;
+  padding: 40px 40px 126px; /* Отступы */
+  background: linear-gradient(0deg, rgba(7, 7, 7, 0.6), rgba(7, 7, 7, 0.6)),
+    url("../img/header-bg.jpg") no-repeat center / cover;
+  border-radius: 0px 0px 50px 50px;
+}
+.hello {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+.hello-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
