@@ -106,4 +106,16 @@ body {
 }
 .button.hh {
   background: #d6001c;
+  margin-bottom: 23px;
+}
+.example-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.example-img {
+  margin-top: 10px;
 }
